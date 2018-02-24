@@ -1,8 +1,9 @@
-alert('(a * a) - (2 * a * b) - (b * b)')
 var a = prompt('Podaj a');
 var b = prompt('Podaj b');
 var value = (a * a) - (2 * a * b) - (b * b);
-console.log(value);
+console.log('a = ' + a);
+console.log('b = ' + b);
+console.log('(a * a) - (2 * a * b) - (b * b)' + ' = ' + value);
 
 if (value > 0) {
   console.log('wynik dodatni');
