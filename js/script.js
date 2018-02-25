@@ -18,7 +18,7 @@ console.log(`(${a} * ${a}) - (2 * ${a} * ${b}) - (${b} * ${b}) = ${value}`);
 
 let result = (value > 0) ? 'wynik dodatni':
   (value < 0) ? 'wynik ujemny':
-  (a.length == 0) || (b.length == 0) ? 'nie podałeś wartości':
+  (a.length == 0) || (b.length == 0) ? 'nie podałeś wartości a i b':
   'zero';
 
 console.log(result);
